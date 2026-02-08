@@ -271,7 +271,7 @@
     @endif
 
     {{-- Front settings --}}
-    <li
+    {{-- <li
         class="nav-item {{ Request::is('front-settings*', 'notice-boards*', 'testimonials*', 'front-cms-services*') ? 'active' : '' }}">
         <a class="nav-link  d-flex align-items-center py-3" href="{{ route('front.settings.index') }}">
             <span class="aside-menu-icon me-3"><i class="fas fa fa-cog"></i></span>
@@ -281,7 +281,7 @@
             <span class="d-none">{{ __('messages.cms') }}</span>
             <span class="d-none">{{ __('messages.front_cms_services') }}</span>
         </a>
-    </li>
+    </li> --}}
 
     {{-- Hospital Charges --}}
     <?php
